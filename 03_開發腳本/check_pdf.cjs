@@ -1,0 +1,1 @@
+const fs=require('fs'); const path=require('path'); const {PDFDocument}=require('pdf-lib'); const dir=path.join(__dirname,'..','01_提案文件'); (async()=>{for(const f of ['校園資訊整合平台_500字說明.pdf','校園資訊整合平台_A4海報.pdf']){const p=path.join(dir,f); const d=await PDFDocument.load(fs.readFileSync(p)); console.log(f,'pages',d.getPageCount(),'bytes',fs.statSync(p).size)}})();

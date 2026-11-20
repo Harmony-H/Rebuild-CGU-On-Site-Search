@@ -1,0 +1,10 @@
+{
+  "finished_at": "2026-11-19T05:04:49.911780+00:00",
+  "engine": "scrapy",
+  "pages": 2000,
+  "items": 2784,
+  "pdfs": 2082,
+  "errors": 1,
+  "reason": "finished",
+  "pdf_links": 3820
+}

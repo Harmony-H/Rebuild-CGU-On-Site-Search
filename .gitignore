@@ -1,0 +1,23 @@
+# Python and local runtime
+__pycache__/
+*.py[cod]
+.venv/
+.python_deps/
+.uv-cache/
+
+# Browser and desktop runtime state
+chrome-profile*/
+chrome-view/
+
+# Temporary checks and local servers
+.tmp-*
+*.log
+
+# Crawled binary attachments are reproducible and too large for the source repo
+04_爬蟲資料/cgu_data/files/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.git-work/
