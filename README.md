@@ -34,6 +34,8 @@ py server.py
 
 完整的技術組成、資料表、API 與搜尋流程請見 [`ARCHITECTURE.md`](ARCHITECTURE.md)。
 
+搜尋設定在 [`search_config.json`](search_config.json)，包含精選建議、同義詞、錯字修正與人工排序提升。這些設定讓「英文免修」、「宿舍退宿」等口語查詢能找到校務文件，也保留後續檢視搜尋紀錄的入口。
+
 ## 本地 Git repo
 
 目前環境的根目錄 `.git` 為唯讀，因此本專案使用 `.git-work` 保存本地 Git metadata。可以用：

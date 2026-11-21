@@ -19,5 +19,6 @@ chrome-view/
 # OS/editor files
 .DS_Store
 Thumbs.db
+desktop.ini
 .vscode/
 .git-work/
